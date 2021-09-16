@@ -38,9 +38,9 @@ FastSCNN:https://github.com/Tramac/Fast-SCNN-pytorch
 
 trt result:
 
-![0_false_color_map](/home/wyl/CLionProjects/TensorrtxPractice/FastSCNN-TensorRT/cmake-build-debug/0_false_color_map.png)
+![0_false_color_map](resultImg/0_false_color_map.png)
 
 pytorch result:
 
-![](/home/wyl/Segmentation/Fast-SCNN-pytorch-master/frankfurt_000001_058914_leftImg8bitfs1.png)
+![](resultImg/frankfurt_000001_058914_leftImg8bitfs1.png)
 
