@@ -8,7 +8,7 @@ from models.fast_scnn import get_fast_scnn
 def main():
     # model = get_fast_scnn(dataset="city", aux=False, nums=19)
 
-    ckpt_path = "/home/wyl/Segmentation/Fast-SCNN-pytorch-master/weights/fast_scnn_citys.pth"
+    ckpt_path = "weights/fast_scnn_citys.pth"
     model = torch.load(ckpt_path, map_location="cpu")
 
     f = open("./custom.txt", 'w')
@@ -19,7 +19,7 @@ def main():
     # model_dict.update(pretrained_dict)
     # model.load_state_dict(model_dict)
 
-    f = open("fastscnn_custom.wts", "w")
+    f = open("fast_scnn_citys.wts", "w")
     f.write("{}\n".format(len(model.keys())))
     for k, v in model.items():
         vr = v.reshape(-1).cpu().numpy()
