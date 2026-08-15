@@ -1,3 +1,5 @@
+
+
 # FastSCNN-TensorRT
 Implementation of FastSCNN with **TensorRT7** network definition API
 
@@ -7,7 +9,7 @@ FastSCNN:https://github.com/Tramac/Fast-SCNN-pytorch
 
 ### How to Run
 
-1. generate .wts
+1. generate .wts (requires `weights/fast_scnn_citys.pth`)
 
    ```python
    python gen_wts.py 
@@ -43,4 +45,3 @@ trt result:
 pytorch result:
 
 ![](resultImg/frankfurt_000001_058914_leftImg8bitfs1.png)
-
